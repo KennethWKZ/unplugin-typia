@@ -10,7 +10,7 @@ body:
         - Read the `README.md` of using the package
         - Search related issues and discussions in the repository
 
-        (mention to @ryoppippi)
+        (mention to @kennethwkz)
 
   - type: input
     id: version
@@ -44,7 +44,7 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Check that there isn't [already an issue](https://github.com/ryoppippi/unplugin-typia/issues) that reports the same bug to avoid creating a duplicate.
+        - label: Check that there isn't [already an issue](https://github.com/kennethwkz/unplugin-typia/issues) that reports the same bug to avoid creating a duplicate.
           required: true
         - label: Check that this is a concrete bug.
           required: true

@@ -4,7 +4,7 @@ import 'webpack-dev-server'
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WorkboxWebpackPlugin from 'workbox-webpack-plugin';
-import UnpluginTypia from '@ryoppippi/unplugin-typia/webpack';
+import UnpluginTypia from '@kennethwkz/unplugin-typia/webpack';
 
 const __filename = import.meta.filename;
 const __dirname = import.meta.dirname;

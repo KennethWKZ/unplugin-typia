@@ -1,5 +1,5 @@
 import { plugin } from 'bun';
-import UnpluginTypia from '@ryoppippi/unplugin-typia/bun';
+import UnpluginTypia from '@kennethwkz/unplugin-typia/bun';
 import { isCI } from "std-env";
 
 plugin(UnpluginTypia({

@@ -201,8 +201,16 @@ function require_validateReport() {
       return path.length > last.length || last.substring(0, path.length) !== path;
     };
     return (exceptable, error) => {
-      if (exceptable && reportable(error.path))
+      var _a;
+      if (exceptable && reportable(error.path)) {
+        if (error.value === void 0)
+          (_a = error.description) !== null && _a !== void 0 ? _a : error.description = [
+            "The value at this path is `undefined`.",
+            "",
+            `Please fill the \`${error.expected}\` typed value next time.`
+          ].join("\n");
         array.push(error);
+      }
       return false;
     };
   };

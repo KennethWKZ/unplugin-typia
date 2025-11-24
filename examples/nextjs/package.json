@@ -18,7 +18,7 @@
     "react-dom": "19.0.0"
   },
   "devDependencies": {
-    "@ryoppippi/unplugin-typia": "workspace:*",
+    "@kennethwkz/unplugin-typia": "workspace:*",
     "@types/node": "^20.17.57",
     "@types/react": "19.0.4",
     "@types/react-dom": "19.0.2",
@@ -26,6 +26,6 @@
     "tslib": "^2.8.1",
     "type-fest": "^4.37.0",
     "typescript": "~5.8.3",
-    "typia": "^9.3.1"
+    "typia": "^10.1.0"
   }
 }
